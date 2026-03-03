@@ -1,103 +1,49 @@
 🚀 Auto Macro Pro v2
 
-A professional desktop-based Auto Clicker & Macro Automation Tool built using Python.
+A powerful and professional Auto Clicker + Macro Automation Tool built using Python.
 
-Auto Macro Pro allows users to record mouse clicks, keyboard inputs (including hotkeys like Ctrl+C / Ctrl+V), and replay them with custom loop counts. It is designed for repetitive task automation, testing workflows, and productivity enhancement.
+Auto Macro Pro allows users to record mouse clicks, keyboard typing, and hotkeys (Ctrl+C, Ctrl+V, etc.) and replay them with custom loop counts. It is designed for productivity, repetitive task automation, and workflow testing.
+
+
+
+📸 Overview
+
+ - Auto Macro Pro helps automate repetitive desktop tasks by:
+- Recording mouse and keyboard activity
+- Saving actions as JSON
+- Replaying actions with customizable loops
+- Supporting hotkeys and special keys
+
+
 
 ✨ Features
+- 🎯 Dynamic Mouse Click Recording
+- ⌨ Keyboard Typing Recording
+- 🔥 Hotkey Support (Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+A, Shift, Alt)
+- 🔁 Custom Loop Count
+- ⏳ Adjustable Delay Between Actions
+- 💾 Save Macros (.json format)
+- 📂 Load Saved Macros
+- 🛑 Emergency Stop Button
 
-🎯 Record mouse clicks (dynamic position capture)
-
-⌨ Record keyboard typing
-
-🔥 Record hotkeys (Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+A, Shift combos, Alt combos)
-
-🔁 Custom loop count execution
-
-⏳ Adjustable delay between actions
-
-💾 Save macro as JSON
-
-📂 Load saved macro files
-
-🛑 Emergency stop button
-
-🖥 Simple and clean GUI (Tkinter based)
-
-🔐 5-second safety delay before execution
 
 🛠 Tech Stack
-
-Python 3.10+
-
-pyautogui
-
-pynput
-
-keyboard
-
-tkinter
-
-json
+- Python 3.10+
+- Tkinter (GUI)
+- PyAutoGUI (Mouse & Keyboard control)
+- Pynput (Input recording)
+- Keyboard (Hotkey handling)
+- JSON (Data storage)
 
 📦 Installation
-pip install pyautogui pynput keyboard
+1️⃣ Clone the Repository
 
-Run the application:
+> git clone [Auto clicker](https://github.com/Krishna-Devansh-Rao/Auto-clicker)
+> cd auto-macro-pro
 
-python auto_macro_pro_v2.py
-🧠 How It Works
+2️⃣ Install Dependencies
+> pip install pyautogui pynput keyboard
 
-Click Start Recording
+3️⃣ Run the Application
+>python auto_macro_pro_v2.py
 
-Perform mouse clicks & keyboard actions
-
-Click Stop Recording
-
-Set loop count
-
-Click Run Macro
-
-Automation starts after 5 seconds
-
-📁 Example JSON Macro File
-[
-    {
-        "type": "click",
-        "x": 450,
-        "y": 300,
-        "delay": 0.3
-    },
-    {
-        "type": "hotkey",
-        "keys": ["ctrl", "c"],
-        "delay": 0.2
-    }
-]
-⚠ Disclaimer
-
-This tool is intended for:
-
-Task automation
-
-Workflow testing
-
-Form filling
-
-Personal productivity
-
-Do not use this software for violating platform policies, cheating in games, or any illegal activities.
-
-🚀 Future Upgrades (Planned)
-
-Modern PyQt6 UI
-
-Drag & Drop step editor
-
-Clipboard content preview
-
-Conditional automation
-
-Image recognition click
-
-Multi-profile system
